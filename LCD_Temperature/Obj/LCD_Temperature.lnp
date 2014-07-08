@@ -1,7 +1,6 @@
 --cpu Cortex-M3
 ".\obj\main.o"
 ".\obj\stm32l1xx_it.o"
-".\obj\stm32l_discovery_lcd.o"
 ".\obj\misc.o"
 ".\obj\stm32l1xx_adc.o"
 ".\obj\stm32l1xx_aes.o"

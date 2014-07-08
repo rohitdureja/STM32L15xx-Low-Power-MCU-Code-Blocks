@@ -34,6 +34,7 @@
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
 /* Private function prototypes -----------------------------------------------*/
+extern void SysTick_Interrupt_Handler(void);
 /* Private functions ---------------------------------------------------------*/
 
 /******************************************************************************/
@@ -135,7 +136,8 @@ void PendSV_Handler(void)
   */
 void SysTick_Handler(void)
 {
-    
+  SysTick_Interrupt_Handler();  
+	
 }
 /******************************************************************************/
 /*                 STM32L1xx Peripherals Interrupt Handlers                   */
