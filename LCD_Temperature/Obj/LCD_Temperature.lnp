@@ -1,6 +1,7 @@
 --cpu Cortex-M3
 ".\obj\main.o"
 ".\obj\stm32l1xx_it.o"
+".\obj\stm32l_discovery_lcd.o"
 ".\obj\misc.o"
 ".\obj\stm32l1xx_adc.o"
 ".\obj\stm32l1xx_aes.o"
@@ -30,8 +31,8 @@
 ".\obj\stm32l1xx_wwdg.o"
 ".\obj\system_stm32l1xx.o"
 ".\obj\startup_stm32l1xx_md.o"
---strict --scatter ".\Obj\STM32L_Template.sct"
+--strict --scatter ".\Obj\LCD_Temperature.sct"
 
 --diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
---list ".\STM32L_Template.map" -o .\Obj\STM32L_Template.axf
+--list ".\Lst\LCD_Temperature.map" -o .\Obj\LCD_Temperature.axf

@@ -6,7 +6,7 @@
 .\obj\stm32l_discovery_lcd.o: C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Libraries\CMSIS\Include\core_cmInstr.h
 .\obj\stm32l_discovery_lcd.o: C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Libraries\CMSIS\Include\core_cmFunc.h
 .\obj\stm32l_discovery_lcd.o: C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Libraries\CMSIS\Device\ST\STM32L1xx\Include\system_stm32l1xx.h
-.\obj\stm32l_discovery_lcd.o: ..\STM32L_Template\stm32l1xx_conf.h
+.\obj\stm32l_discovery_lcd.o: ..\LCD_Temperature\stm32l1xx_conf.h
 .\obj\stm32l_discovery_lcd.o: C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Libraries\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_adc.h
 .\obj\stm32l_discovery_lcd.o: C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Libraries\CMSIS\Device\ST\STM32L1xx\Include\stm32l1xx.h
 .\obj\stm32l_discovery_lcd.o: C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Libraries\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_aes.h
@@ -34,4 +34,4 @@
 .\obj\stm32l_discovery_lcd.o: C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Libraries\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_wwdg.h
 .\obj\stm32l_discovery_lcd.o: C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Libraries\STM32L1xx_StdPeriph_Driver\inc\misc.h
 .\obj\stm32l_discovery_lcd.o: C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Utilities\STM32L-DISCOVERY\discover_board.h
-.\obj\stm32l_discovery_lcd.o: ..\STM32L_Template\main.h
+.\obj\stm32l_discovery_lcd.o: ..\LCD_Temperature\main.h
