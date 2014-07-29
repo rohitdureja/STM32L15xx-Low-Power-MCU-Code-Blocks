@@ -34,7 +34,7 @@
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
 /* Private function prototypes -----------------------------------------------*/
-extern void SysTick_Interrupt_Handler(void);
+extern void TimingDelay_Decrement(void);
 /* Private functions ---------------------------------------------------------*/
 
 /******************************************************************************/
@@ -136,7 +136,7 @@ void PendSV_Handler(void)
   */
 void SysTick_Handler(void)
 {
-  SysTick_Interrupt_Handler();  
+  TimingDelay_Decrement();  
 	
 }
 /******************************************************************************/

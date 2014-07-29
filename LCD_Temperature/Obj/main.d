@@ -32,3 +32,5 @@
 .\obj\main.o: C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Libraries\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_usart.h
 .\obj\main.o: C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Libraries\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_wwdg.h
 .\obj\main.o: C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Libraries\STM32L1xx_StdPeriph_Driver\inc\misc.h
+.\obj\main.o: C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Utilities\STM32L-DISCOVERY\stm32l_discovery_lcd.h
+.\obj\main.o: C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Utilities\STM32L-DISCOVERY\discover_board.h

@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>LCD_Temperature</TargetName>
+      <TargetName>STM32L_Template</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <TargetOption>
@@ -45,7 +45,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\Obj\</OutputDirectory>
-          <OutputName>LCD_Temperature</OutputName>
+          <OutputName>STM32_Template</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
@@ -364,7 +364,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER, STM32L1XX_MD</Define>
               <Undefine></Undefine>
-              <IncludePath>C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Libraries\STM32L1xx_StdPeriph_Driver\inc;C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Libraries\CMSIS\Include;C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Libraries\CMSIS\Device\ST\STM32L1xx\Include;C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Utilities\STM32L-DISCOVERY;..\LCD_Temperature</IncludePath>
+              <IncludePath>C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Libraries\STM32L1xx_StdPeriph_Driver\inc;C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Libraries\CMSIS\Include;C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Libraries\CMSIS\Device\ST\STM32L1xx\Include;C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Utilities\STM32L-DISCOVERY;..\STM32L_Template</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -416,11 +416,6 @@
               <FileName>stm32l1xx_it.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\stm32l1xx_it.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32l_discovery_lcd.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>C:\STMicroelectronics\STM32L1_Discovery_Firmware_Pack_V1.0.3\Utilities\STM32L-DISCOVERY\stm32l_discovery_lcd.c</FilePath>
             </File>
           </Files>
         </Group>
